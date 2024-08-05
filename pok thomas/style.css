@@ -1,0 +1,62 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url('https://p4.wallpaperbetter.com/wallpaper/699/640/867/red-pikachu-pokeballs-minimalism-wallpaper-preview.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    margin: 0;
+}
+
+input {
+    text-align: center;
+    width: 280px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    border: none;
+    margin-bottom: 10px;
+}
+
+.result {
+    width: 280px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background-image: url('https://i.pinimg.com/originals/9f/b4/22/9fb422482ab6be8c64a12184d4088d90.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 20px;
+    border-radius: 10px;
+    min-height: 200px; /* Ensure there's enough space for content */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1 {
+    font-size: 24px;
+    margin: 0;
+}
+
+img {
+    background-color: transparent;
+    max-width: 100%;
+    height: auto;
+}
+
+button {
+    text-align: center;
+    width: 280px;
+    background-color: rgb(255, 0, 0);
+    border-radius: 10px;
+    border: none;
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+
